@@ -1,7 +1,11 @@
+import Bath from "./Bath"
+import Bedroom from "./Bedroom"
+import Kitchen from "./Kitchen"
+import LivingRoom from "./LivingRoom"
+
 const FloorPlan = () => {
   return (  
   <div>
-    <h1>Floor Plan</h1>
     <Kitchen/>
     <LivingRoom/>
     <Bedroom bedNum={1}/>
@@ -10,7 +14,7 @@ const FloorPlan = () => {
     <Bath size='Half Bath'/>
     <Bath size='Full Bath'/>
   </div>
-  
+
   )
 }
 

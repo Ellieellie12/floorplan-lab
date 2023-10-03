@@ -1,9 +1,9 @@
 const Sink = () => {
   return (  
     <div>
-      <h1>Sink</h1>
+      <h4>Sink</h4>
     </div>
   )
 }
 
-export default Sink;
+export default Sink

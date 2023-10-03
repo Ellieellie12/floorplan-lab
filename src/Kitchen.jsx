@@ -1,7 +1,10 @@
+import Sink from "./Sink";
+import Oven from "./Oven";
+
 const Kitchen = () => {
   return ( 
     <div>
-      <h1>Kitchen</h1>
+      <h4>Kitchen</h4>
       <Oven/>
       <Sink/>
     </div>
