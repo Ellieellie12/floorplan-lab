@@ -1,7 +1,9 @@
-const Bedroom = (props) => {
+const Bedroom = () => {
   return (  
-    
+    <div>
+      
+    </div>
   )
 }
 
-export default Bedroom;
+export default Bedroom
